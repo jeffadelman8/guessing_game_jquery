@@ -1,0 +1,45 @@
+body {
+	color: #444444;
+	background-color: #cccccc;
+	position: absolute;
+	font-size: 20px;
+}
+
+.container {
+	margin: 20px 50px;
+}
+
+.header {
+	font-family: futura;
+	font-size: 50px;
+	color: #cc0000;
+}
+
+.hint {
+	font-size: 15px;
+	color: #666666;
+	cursor: pointer;
+}
+
+input {
+	background-color: #ffffff;
+	height: 30px;
+	border-radius: 5px;
+}
+
+input:focus {
+	border: 2px solid #cc0000;
+}
+
+button {
+	background-color: #cc0000;
+	color: #cccccc;
+	font-size: 15px;
+	outline-style: none;
+	width: 75px;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+	margin-left: 5px;
+	cursor: pointer;
+}
